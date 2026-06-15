@@ -1,7 +1,7 @@
 from google.cloud import storage
 import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"D:\SRH\DM2\Project\wildfire_pipeline\credentials\fire-pipeline-7949a4caa0c6.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/g100004569/gcp-credentials.json"
 
 def upload_to_gcs(local_file, bucket_name, destination_blob):
     client = storage.Client()

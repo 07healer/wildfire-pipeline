@@ -3,7 +3,7 @@ import pandas as pd
 from google.cloud import storage
 import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"D:\SRH\DM2\Project\wildfire_pipeline\credentials\fire-pipeline-7949a4caa0c6.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/g100004569/gcp-credentials.json"
 
 def load_kaggle_wildfires():
     conn = sqlite3.connect(r"D:\SRH\DM2\Project\FPA_FOD_20170508.sqlite") 

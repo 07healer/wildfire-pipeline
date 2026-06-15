@@ -5,3 +5,6 @@ __pycache__/
 *.pyc
 *.save
 *.save.1
+*.parquet
+local_*.parquet
+processed_*.parquet
